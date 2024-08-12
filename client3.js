@@ -2,7 +2,7 @@ const WebSocket = require('ws');
 const readline = require('readline');
 const prompt = require("prompt-sync")({ sigint: true });
 
-const uri = 'ws://ec2-18-197-137-72.eu-central-1.compute.amazonaws.com:8765';
+const uri = 'ws://ip-172-31-16-252.eu-central-1.compute.internal:8765';
 const ws = new WebSocket(uri);
 
 const rl = readline.createInterface({
