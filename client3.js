@@ -2,7 +2,7 @@ const WebSocket = require('ws');
 const readline = require('readline');
 const prompt = require("prompt-sync")({ sigint: true });
 
-const uri = 'ws://beb1027407297d1350349a5fb9adbb68.serveo.net';
+const uri = 'ws://a476798d31984febf999dc363fc795b8.serveo.net';
 const ws = new WebSocket(uri);
 
 const rl = readline.createInterface({
